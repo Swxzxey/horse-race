@@ -57,11 +57,7 @@ class Horse
     
     public boolean hasFallen()
     {
-        if (horseFallen) {
-            return true;
-        } else {
-            return false;
-        }
+        return horseFallen;
     }
 
     public void moveForward()
